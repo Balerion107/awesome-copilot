@@ -28,8 +28,6 @@ on:
         description: "Pull request number to route (leave empty to sweep all open PRs)"
         required: false
         type: string
-  schedule:
-    - cron: "17 * * * *"
 
 permissions: {}
 

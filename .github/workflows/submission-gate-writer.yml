@@ -10,10 +10,6 @@ on:
   workflow_run:
     workflows: ["Submission Gate"]
     types: [requested, completed]
-  schedule:
-    # Safety net: re-runs started with GITHUB_TOKEN and review events do not always
-    # produce workflow_run events, so refresh recently updated open PRs hourly.
-    - cron: "23 * * * *"
   workflow_dispatch:
     inputs:
       pr_number:
