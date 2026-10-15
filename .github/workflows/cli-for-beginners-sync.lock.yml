@@ -54,8 +54,6 @@
 
 name: "CLI for Beginners Content Sync"
 on:
-  schedule:
-    - cron: "34 3 * * 5"  # Friendly format: weekly (scattered)
   workflow_dispatch:
     inputs:
       aw_context:

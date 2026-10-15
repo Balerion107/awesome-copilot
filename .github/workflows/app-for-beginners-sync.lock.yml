@@ -56,8 +56,6 @@
 
 name: "Copilot app for Beginners Content Sync"
 on:
-  schedule:
-    - cron: "22 5 * * 1"  # Friendly format: weekly (scattered)
   workflow_dispatch:
     inputs:
       aw_context:

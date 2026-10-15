@@ -54,8 +54,6 @@
 
 name: "Advanced Copilot CLI Content Sync"
 on:
-  schedule:
-    - cron: "39 14 * * 4"  # Friendly format: weekly (scattered)
   workflow_dispatch:
     inputs:
       aw_context:
