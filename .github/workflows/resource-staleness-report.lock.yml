@@ -51,8 +51,6 @@
 
 name: "Resource Staleness Report"
 on:
-  schedule:
-    - cron: "5 3 * * 5"  # Friendly format: weekly (scattered)
   workflow_dispatch:
     inputs:
       aw_context:

@@ -14,8 +14,6 @@ name: Review Escalation
 # with Review Routing. Only trusted default-branch code is executed.
 
 on:
-  schedule:
-    - cron: "0 14 * * 1-5"
   workflow_dispatch:
 
 permissions: {}
