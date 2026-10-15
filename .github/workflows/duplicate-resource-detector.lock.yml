@@ -51,8 +51,6 @@
 
 name: "Duplicate Resource Detector"
 on:
-  schedule:
-    - cron: "50 21 * * 4"  # Friendly format: weekly (scattered)
   workflow_dispatch:
     inputs:
       aw_context:

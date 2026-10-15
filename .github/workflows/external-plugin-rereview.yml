@@ -1,8 +1,6 @@
 name: External Plugin Re-review
 
 on:
-  schedule:
-    - cron: "23 4 * * *"
   workflow_dispatch:
 
 permissions:
